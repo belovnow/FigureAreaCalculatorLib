@@ -12,14 +12,7 @@ namespace FigureAreaCalculatorLib
     {
         static void Main(string[] args)
         {
-            FigureArea circle = new CircleArea(2);
-
-            Console.WriteLine(circle.Area);
-
-            TriangleArea triangle = new TriangleArea( 1, 1, 100 );
-            Console.WriteLine(triangle.Area);
-
-            Rectangle rectangle = new Rectangle();
+            
         }
     }
 }
